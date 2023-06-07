@@ -1,0 +1,10 @@
+{
+    "powers":[
+        "origins:nine_lives",
+        "origins:tailwind"
+    ],
+    "icon": {
+        "item": "minecraft:slime_block"
+    },
+    "impact": 1
+}
