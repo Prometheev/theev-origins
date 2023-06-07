@@ -1,0 +1,6 @@
+{
+    "origin.theev-origins.slimey.name": "slimey",
+    "origin.theev-origins.slimey.description": "The slimey is a slime become sentient, it can change size at will giving various advantages and disadvantages",
+    "power.theev-origins.slimey/size_increase.name":"increase size",
+    "power.theev-origins.slimey/size_increase.description":"you can increase your size at will with key primary ability"
+}

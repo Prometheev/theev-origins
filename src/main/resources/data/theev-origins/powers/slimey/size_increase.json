@@ -1,0 +1,16 @@
+{
+    "type": "origins:active_self",
+    "entity_action": {
+        "type":"origins:and",
+		"actions":[
+			{
+				"type":"origins:execute_command",
+				"command":"scale add pehkui:height 0.25"
+			},
+			{
+				"type":"origins:execute_command",
+				"command":"scale add pehkui:width 0.25"
+			}
+		]
+    }
+}
