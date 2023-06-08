@@ -1,0 +1,131 @@
+{
+    "type": "origins:multiple",
+    "smallest_health": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "name": "smallest health reduction",
+            "attribute": "minecraft:generic.max_health",
+            "value": -4,
+            "operation": "addition"
+        },
+        "tick_rate": 20,
+        "condition": {
+			"type": "origins:command",
+			"command": "scale compute pehkui:height @s 8",
+			"comparison": "<",
+			"compare_to": 1
+		}
+    },
+    "smaller_health": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "name": "smaller health reduction",
+            "attribute": "minecraft:generic.max_health",
+            "value": -4,
+            "operation": "addition"
+        },
+        "tick_rate": 20,
+        "condition": {
+			"type": "origins:command",
+			"command": "scale compute pehkui:height @s 8",
+			"comparison": "<",
+			"compare_to": 2
+		}
+    },
+    "small_health": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "name": "smaller health reduction",
+            "attribute": "minecraft:generic.max_health",
+            "value": -4,
+            "operation": "addition"
+        },
+        "tick_rate": 20,
+        "condition": {
+			"type": "origins:command",
+			"command": "scale compute pehkui:height @s 8",
+			"comparison": "<",
+			"compare_to": 4
+		}
+    },
+    "smallish_health": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "name": "smaller health reduction",
+            "attribute": "minecraft:generic.max_health",
+            "value": -4,
+            "operation": "addition"
+        },
+        "tick_rate": 20,
+        "condition": {
+			"type": "origins:command",
+			"command": "scale compute pehkui:height @s 8",
+			"comparison": "<",
+			"compare_to": 8
+		}
+    },
+    "largish_health": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "name": "smaller health reduction",
+            "attribute": "minecraft:generic.max_health",
+            "value": 5,
+            "operation": "addition"
+        },
+        "tick_rate": 20,
+        "condition": {
+			"type": "origins:command",
+			"command": "scale compute pehkui:height @s 8",
+			"comparison": ">",
+			"compare_to": 8
+		}
+    },
+    "large_health": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "name": "smaller health reduction",
+            "attribute": "minecraft:generic.max_health",
+            "value": 5,
+            "operation": "addition"
+        },
+        "tick_rate": 20,
+        "condition": {
+			"type": "origins:command",
+			"command": "scale compute pehkui:height @s 8",
+			"comparison": ">",
+			"compare_to": 10
+		}
+    },
+    "larger_health": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "name": "smaller health reduction",
+            "attribute": "minecraft:generic.max_health",
+            "value": 5,
+            "operation": "addition"
+        },
+        "tick_rate": 20,
+        "condition": {
+			"type": "origins:command",
+			"command": "scale compute pehkui:height @s 8",
+			"comparison": ">",
+			"compare_to": 12
+		}
+    },
+    "largest_health": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "name": "smaller health reduction",
+            "attribute": "minecraft:generic.max_health",
+            "value": 5,
+            "operation": "addition"
+        },
+        "tick_rate": 20,
+        "condition": {
+			"type": "origins:command",
+			"command": "scale compute pehkui:height @s 8",
+			"comparison": ">",
+			"compare_to": 14
+		}
+    }
+}
