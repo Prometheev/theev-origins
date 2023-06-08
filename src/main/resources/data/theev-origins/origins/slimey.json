@@ -4,7 +4,8 @@
         "theev-origins:slimey/size_decrease",
         "theev-origins:slimey/health_by_size",
         "theev-origins:slimey/speed_by_size",
-        "theev-origins:slimey/power_by_health"
+        "theev-origins:slimey/power_by_health",
+        "theev-origins:slimey/smallest_no_fall"
     ],
     "icon": {
         "item": "minecraft:slime_block"
