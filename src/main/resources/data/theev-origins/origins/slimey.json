@@ -2,7 +2,8 @@
     "powers":[
         "origins:nine_lives",
         "origins:tailwind",
-        "theev-origins:slimey/size_increase"
+        "theev-origins:slimey/size_increase",
+        "theev-origins:slimey/size_decrease"
     ],
     "icon": {
         "item": "minecraft:slime_block"
