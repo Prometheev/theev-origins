@@ -1,0 +1,131 @@
+{
+    "type": "origins:multiple",
+    "smallest_speed": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "name": "smallest speed",
+            "attribute": "minecraft:generic.movement_speed",
+            "value": 0.1,
+            "operation": "multiply_base"
+        },
+        "tick_rate": 60,
+        "condition": {
+			"type": "origins:command",
+			"command": "scale compute pehkui:height @s 8",
+			"comparison": "<",
+			"compare_to": 1
+		}
+    },
+    "smaller_speed": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "name": "smaller speed",
+            "attribute": "minecraft:generic.movement_speed",
+            "value": 0.1,
+            "operation": "multiply_base"
+        },
+        "tick_rate": 20,
+        "condition": {
+			"type": "origins:command",
+			"command": "scale compute pehkui:height @s 8",
+			"comparison": "<",
+			"compare_to": 2
+		}
+    },
+    "small_speed": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "name": "small speed",
+            "attribute": "minecraft:generic.movement_speed",
+            "value": 0.1,
+            "operation": "multiply_base"
+        },
+        "tick_rate": 20,
+        "condition": {
+			"type": "origins:command",
+			"command": "scale compute pehkui:height @s 8",
+			"comparison": "<",
+			"compare_to": 4
+		}
+    },
+    "smallish_speed": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "name": "smallish speed",
+            "attribute": "minecraft:generic.movement_speed",
+            "value": 0.1,
+            "operation": "multiply_base"
+        },
+        "tick_rate": 20,
+        "condition": {
+			"type": "origins:command",
+			"command": "scale compute pehkui:height @s 8",
+			"comparison": "<",
+			"compare_to": 8
+		}
+    },
+    "largish_speed": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "name": "largish speed",
+            "attribute": "minecraft:generic.movement_speed",
+            "value": -0.05,
+            "operation": "multiply_base"
+        },
+        "tick_rate": 20,
+        "condition": {
+			"type": "origins:command",
+			"command": "scale compute pehkui:height @s 8",
+			"comparison": ">",
+			"compare_to": 8
+		}
+    },
+    "large_speed": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "name": "large speed",
+            "attribute": "minecraft:generic.movement_speed",
+            "value": -0.05,
+            "operation": "multiply_base"
+        },
+        "tick_rate": 20,
+        "condition": {
+			"type": "origins:command",
+			"command": "scale compute pehkui:height @s 8",
+			"comparison": ">",
+			"compare_to": 10
+		}
+    },
+    "larger_speed": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "name": "larger speed",
+            "attribute": "minecraft:generic.movement_speed",
+            "value": -0.05,
+            "operation": "multiply_base"
+        },
+        "tick_rate": 20,
+        "condition": {
+			"type": "origins:command",
+			"command": "scale compute pehkui:height @s 8",
+			"comparison": ">",
+			"compare_to": 12
+		}
+    },
+    "largest_speed": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "name": "largest speed",
+            "attribute": "minecraft:generic.movement_speed",
+            "value": -0.05,
+            "operation": "multiply_base"
+        },
+        "tick_rate": 20,
+        "condition": {
+			"type": "origins:command",
+			"command": "scale compute pehkui:height @s 8",
+			"comparison": ">",
+			"compare_to": 14
+		}
+    }
+}
