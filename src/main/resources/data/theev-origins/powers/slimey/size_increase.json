@@ -4,24 +4,46 @@
 		"type": "origins:if_else",
 		"condition": {
 			"type": "origins:command",
-			"command": "scale compute pehkui:height @s 8 ",
+			"command": "scale compute pehkui:height @s 8",
 			"comparison": "<",
 			"compare_to": 16
 		},
 		"if_action": {
-			"type": "origins:and",
-			"actions":[
-				{
-					"type":"origins:execute_command",
-					"command":"scale add pehkui:height 0.25"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"scale add pehkui:width 0.25"
-				}
-			]
+			"type": "origins:if_else",
+			"condition": {
+				"type": "origins:command",
+				"command": "scale compute pehkui:height @s 8",
+				"comparison": ">=",
+				"compare_to": 8
+			},
+			"if_action":{
+				"type": "origins:and",
+				"actions":[
+					{
+						"type":"origins:execute_command",
+						"command":"scale add pehkui:height 0.25"
+					},
+					{
+						"type":"origins:execute_command",
+						"command":"scale add pehkui:width 0.25"
+					}
+				]
+			},
+			"else_action":{
+				"type": "origins:and",
+				"actions":[
+					{
+						"type":"origins:execute_command",
+						"command":"scale multiply pehkui:height 2"
+					},
+					{
+						"type":"origins:execute_command",
+						"command":"scale multiply pehkui:width 2"
+					}
+				]
+			}
 		}
 	},
-	"cooldown": 100,
+	"cooldown": 1,
 	"key": "key.origins.primary_active"
 }
