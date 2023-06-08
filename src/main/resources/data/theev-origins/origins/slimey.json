@@ -3,7 +3,8 @@
         "theev-origins:slimey/size_increase",
         "theev-origins:slimey/size_decrease",
         "theev-origins:slimey/health_by_size",
-        "theev-origins:slimey/speed_by_size"
+        "theev-origins:slimey/speed_by_size",
+        "theev-origins:slimey/power_by_health"
     ],
     "icon": {
         "item": "minecraft:slime_block"
