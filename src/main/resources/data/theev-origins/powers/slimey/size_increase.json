@@ -1,16 +1,25 @@
 {
     "type": "origins:active_self",
     "entity_action": {
-        "type":"origins:and",
-		"actions":[
-			{
-				"type":"origins:execute_command",
-				"command":"scale add pehkui:height 0.25"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"scale add pehkui:width 0.25"
-			}
-		]
-    }
+		"type": "origins:if_else",
+		"condition": {
+			"type": "origins:command",
+			"command": "scale get pehkui:height @s",
+			"comparison": "<",
+			"compare_to": 2
+		},
+		"if_action": {
+			"type": "origins:and",
+			"actions":[
+				{
+					"type":"origins:execute_command",
+					"command":"scale add pehkui:height 0.25"
+				},
+				{
+					"type":"origins:execute_command",
+					"command":"scale add pehkui:width 0.25"
+				}
+			]
+		}
+	}
 }
