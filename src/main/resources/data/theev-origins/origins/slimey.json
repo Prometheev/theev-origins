@@ -5,6 +5,7 @@
         "theev-origins:slimey/health_by_size",
         "theev-origins:slimey/speed_by_size",
         "theev-origins:slimey/power_by_health",
+        "theev-origins:slimey/small_less_food",
         "theev-origins:slimey/smallest_no_fall",
         "theev-origins:slimey/large_slam",
         "theev-origins:slimey/largest_reach"
