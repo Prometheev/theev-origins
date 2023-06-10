@@ -8,7 +8,7 @@
                 "radius": 6,
                 "bientity_action": {
                     "type": "origins:damage",
-                    "amount": 4,
+                    "amount": 9,
                     "source":{
                         "name":"cramming.player",
                         "bypasses_armor":true
