@@ -4,7 +4,7 @@ plugins {
     id 'net.minecraftforge.gradle' version '5.1.+'
 }
 
-version = '1.0'
+version = '1.0.1'
 group = 'com.yourname.theevorigins' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'theevorigins'
 
@@ -164,7 +164,7 @@ jar {
         attributes([
                 "Specification-Title"     : "theevorigins",
                 "Specification-Vendor"    : "theevoriginssareus",
-                "Specification-Version"   : "1", // We are version 1 of ourselves
+                "Specification-Version"   : "1.0.1", // We are version 1 of ourselves
                 "Implementation-Title"    : project.name,
                 "Implementation-Version"  : project.jar.archiveVersion,
                 "Implementation-Vendor"   : "theevoriginssareus",
