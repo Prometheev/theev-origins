@@ -2,5 +2,21 @@
     "origin.theev-origins.slimey.name": "slimey",
     "origin.theev-origins.slimey.description": "The slimey is a slime become sentient, it can change size at will giving various advantages and disadvantages",
     "power.theev-origins.slimey/size_increase.name":"increase size",
-    "power.theev-origins.slimey/size_increase.description":"you can increase your size at will with key primary ability"
+    "power.theev-origins.slimey/size_increase.description":"you can increase your size at will with key primary ability",
+    "power.theev-origins.slimey/size_decrease.name": "decrease size",
+    "power.theev-origins.slimey/size_decrease.description": "you can increase your size at will with key secondary ability",
+    "power.theev-origins.slimey/health_by_size.name": "size health",
+    "power.theev-origins.slimey/health_by_size.description": "the bigger you are the higher you constitution",
+    "power.theev-origins.slimey/speed_by_size.name": "size speed",
+    "power.theev-origins.slimey/speed_by_size.description": "the smaller you are the faster you are",
+    "power.theev-origins.slimey/power_by_health.name": "size power",
+    "power.theev-origins.slimey/power_by_health.description": "the bigger you are the more damage you deal",
+    "power.theev-origins.slimey/small_less_food.name": "small appetite",
+    "power.theev-origins.slimey/small_less_food.description": "when you are small you take less food to feed",
+    "power.theev-origins.slimey/smallest_no_fall.name": "smallest weight",
+    "power.theev-origins.slimey/smallest_no_fall.description": "when you are smallest, you take no fall damage",
+    "power.theev-origins.slimey/large_slam.name": "large slam",
+    "power.theev-origins.slimey/large_slam.description": "when you are large, if you land you deal damage in an area",
+    "power.theev-origins.slimey/largest_reach.name": "largest reach",
+    "power.theev-origins.slimey/largest_reach.description": "when at your largest, you have extra reach"
 }
