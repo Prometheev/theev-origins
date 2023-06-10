@@ -1,0 +1,24 @@
+{
+    "type": "origins:conditioned_attribute",
+    "modifiers": [
+        {
+            "name": "Extra Reach block reach",
+            "attribute": "forge:reach_distance",
+            "value": 2,
+            "operation": "addition"
+        },
+        {
+            "name": "Extra Reach block reach",
+            "attribute": "forge:attack_range",
+            "value": 2,
+            "operation": "addition"
+        }
+    ],
+    "tick_rate": 20,
+    "condition": {
+        "type": "origins:command",
+        "command": "scale compute pehkui:height @s 8",
+        "comparison": ">",
+        "compare_to": 14
+    }
+}
