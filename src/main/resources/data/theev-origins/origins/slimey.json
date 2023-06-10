@@ -1,5 +1,6 @@
 {
     "powers":[
+        "origins:water_vulnerability",
         "theev-origins:slimey/size_increase",
         "theev-origins:slimey/size_decrease",
         "theev-origins:slimey/health_by_size",
