@@ -1,0 +1,50 @@
+{
+    "type": "origins:action_on_land",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:area_of_effect",
+                "radius": 6,
+                "bientity_action": {
+                    "type": "origins:damage",
+                    "amount": 4,
+                    "source":{
+                        "name":"cramming.player",
+                        "bypasses_armor":true
+                    }
+                }
+            },
+            {
+                "type": "origins:spawn_particles",
+                "particle": {
+                    "type": "minecraft:block",
+                    "params": "minecraft:slime_block"
+                },
+                "count": 128,
+                "speed": 1,
+                "spread": {
+                    "x": 6.0,
+                    "y": 0.0,
+                    "z": 6.0
+                }
+            }
+        ]
+    },
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:fall_distance",
+                "comparison": ">",
+                "compare_to": 5
+            },
+            {
+                "type": "origins:command",
+                "command": "scale compute pehkui:height @s 8",
+                "comparison": ">",
+                "compare_to": 10
+            }
+        ]
+    }
+}
