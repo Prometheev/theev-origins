@@ -44,6 +44,6 @@
 			}
 		}
 	},
-	"cooldown": 15,
+	"cooldown": 3000,
 	"key": "key.origins.secondary_active"
 }
