@@ -2,7 +2,12 @@
     "powers":[
         "theev-origins:hatchling/creative_flight",
         "theev-origins:hatchling/gold_flight",
-        "theev-origins:hatchling/tiny_wings"
+        "theev-origins:hatchling/lucky_wings",
+        "theev-origins:hatchling/treasure_hoard",
+        "theev-origins:hatchling/young",
+        "theev-origins:hatchling/hungry",
+        "theev-origins:hatchling/deep_sleeper",
+        "origins:deep_sleeper"
     ],
     "icon": {
         "item": "minecraft:dragon_egg"
