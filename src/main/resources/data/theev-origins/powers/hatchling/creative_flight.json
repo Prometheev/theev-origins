@@ -1,0 +1,7 @@
+{
+    "type": "origins:creative_flight",
+    "condition": {
+        "type": "origins:status_effect",
+        "effect": "theevorigins:golden_flight"
+    }
+}

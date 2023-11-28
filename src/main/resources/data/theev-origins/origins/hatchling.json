@@ -1,0 +1,11 @@
+{
+    "powers":[
+        "theev-origins:hatchling/creative_flight",
+        "theev-origins:hatchling/gold_flight",
+        "theev-origins:hatchling/tiny_wings"
+    ],
+    "icon": {
+        "item": "minecraft:dragon_egg"
+    },
+    "impact": 1
+}

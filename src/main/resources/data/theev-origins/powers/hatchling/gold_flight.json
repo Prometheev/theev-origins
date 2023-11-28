@@ -1,0 +1,17 @@
+{
+    "type": "origins:action_on_item_use",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "theevorigins:golden_flight",
+            "duration": 1200,
+            "amplifier": 0
+        }
+    },
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:golden_carrot"
+        }
+    }
+}

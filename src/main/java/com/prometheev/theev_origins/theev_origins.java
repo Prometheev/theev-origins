@@ -1,7 +1,10 @@
 package com.prometheev.theev_origins;
 
 import com.mojang.logging.LogUtils;
+import com.prometheev.theev_origins.effect.MobEffects;
+
 import net.minecraft.client.Minecraft;
+import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
@@ -55,6 +58,7 @@ public class theev_origins
         BLOCKS.register(modEventBus);
         // Register the Deferred Register to the mod event bus so items get registered
         ITEMS.register(modEventBus);
+        MobEffects.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);

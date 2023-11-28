@@ -1,6 +1,7 @@
 {
     "allow_random": true,
     "origins": [
-        "theev-origins:slimey"
+        "theev-origins:slimey",
+        "theev-origins:hatchling"
     ]
 }

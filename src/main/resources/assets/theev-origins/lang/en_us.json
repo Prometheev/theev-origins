@@ -18,5 +18,10 @@
     "power.theev-origins.slimey/large_slam.name": "large slam",
     "power.theev-origins.slimey/large_slam.description": "when you are large, if you land you deal damage in an area",
     "power.theev-origins.slimey/largest_reach.name": "largest reach",
-    "power.theev-origins.slimey/largest_reach.description": "when at your largest, you have extra reach"
+    "power.theev-origins.slimey/largest_reach.description": "when at your largest, you have extra reach",
+
+    "origin.theev-origins.hatchling.name": "dragon hatcling",
+    "origin.theev-origins.hatchling.description": "is a dragon hatcling",
+    "power.theev-origins.hatchling/creative_flight": "can fly",
+    "power.theev-origins.hatchling/eat_gold": "can eat gold"
 }
