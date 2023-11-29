@@ -7,7 +7,7 @@
         "theev-origins:hatchling/young",
         "theev-origins:hatchling/hungry",
         "theev-origins:hatchling/deep_sleeper",
-        "origins:deep_sleeper"
+        "theev-origins:hatchling/fire_breath_smelting"
     ],
     "icon": {
         "item": "minecraft:dragon_egg"

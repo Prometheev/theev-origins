@@ -1,0 +1,41 @@
+{
+    "type": "origins:action_on_block_break",
+    "entity_action": {
+        "type": "origins:give",
+        "stack": {
+            "item": "minecraft:raw_gold",
+            "amount": 1
+        }
+    },
+    "only_when_harvested": true,
+    "block_condition": {
+        "type": "origins:block",
+        "block": "minecraft:gold_ore"
+    },
+    "condition": {
+        "type": "origins:or",
+        "inverted": true,
+        "conditions": [
+            {
+                "type": "origins:equipped_item",
+                "equipment_slot": "mainhand",
+                "item_condition": {
+                    "type": "origins:enchantment",
+                    "enchantment": "minecraft:silk_touch",
+                    "comparison": "==",
+                    "compare_to": 1
+                }
+            },
+            {    
+                "type": "origins:equipped_item",
+                "equipment_slot": "offhand",
+                "item_condition": {
+                    "type": "origins:enchantment",
+                    "enchantment": "minecraft:silk_touch",
+                    "comparison": "==",
+                    "compare_to": 1
+                }
+            }
+        ]
+    }
+}
