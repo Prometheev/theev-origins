@@ -11,12 +11,6 @@
             "show_icon": true
         },
         {
-            "effect": "minecraft:luck",
-            "is_ambient": true,
-            "show_particles": false,
-            "show_icon": true
-        },
-        {
             "effect": "minecraft:fire_resistance",
             "is_ambient": true,
             "show_particles": false,

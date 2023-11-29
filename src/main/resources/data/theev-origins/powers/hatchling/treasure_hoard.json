@@ -142,5 +142,17 @@
                 "is_ambient": true
             }
         ]
+    },
+    "lucky": {
+        "type": "origins:stacking_status_effect",
+        "min_stacks": 0,
+        "max_stacks": 1,
+        "duration_per_stack": 200,
+        "effect": {
+            "effect": "minecraft:luck",
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": true
+        }
     }
 }
