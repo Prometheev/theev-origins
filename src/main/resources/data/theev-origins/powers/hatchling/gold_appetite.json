@@ -6,7 +6,7 @@
             "type": "origins:apply_effect",
             "effect": {
                 "effect": "theevorigins:golden_flight",
-                "duration": 1200,
+                "duration": 600,
                 "amplifier": 0
             }
         },
@@ -25,7 +25,7 @@
             "type": "origins:apply_effect",
             "effect": {
                 "effect": "theevorigins:golden_flight",
-                "duration": 8400,
+                "duration": 4200,
                 "amplifier": 0
             }
         },
