@@ -5,7 +5,9 @@
         "theev-origins:fairy/tiny",
         "theev-origins:fairy/regenerating",
         "theev-origins:fairy/delicate",
-        "theev-origins:fairy/iron_weakness"
+        "theev-origins:fairy/iron_weakness",
+        "theev-origins:fairy/fairy_dust"
+
     ],
     "icon": {
         "item": "minecraft:glowstone_dust"

@@ -1,0 +1,6 @@
+{
+    "type": "origins:fire_projectile",
+    "entity_type": "minecraft:arrow",
+    "cooldown": 600,
+    "tag": "{CustomPotionEffects:[{Id:25,Duration:100,ShowParticles:0b}],pickup:0b}"
+}
