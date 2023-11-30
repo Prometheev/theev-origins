@@ -8,13 +8,13 @@
             "effect": "minecraft:slow_falling",
             "is_ambient": true,
             "show_particles": false,
-            "show_icon": true
+            "show_icon": false
         },
         {
             "effect": "minecraft:fire_resistance",
             "is_ambient": true,
             "show_particles": false,
-            "show_icon": true
+            "show_icon": false
         }
     ]
 }

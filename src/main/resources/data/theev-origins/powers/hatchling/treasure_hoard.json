@@ -152,7 +152,7 @@
             "effect": "minecraft:luck",
             "is_ambient": true,
             "show_particles": false,
-            "show_icon": true
+            "show_icon": false
         }
     }
 }
