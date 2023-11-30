@@ -2,6 +2,7 @@
     "allow_random": true,
     "origins": [
         "theev-origins:slimey",
-        "theev-origins:hatchling"
+        "theev-origins:hatchling",
+        "theev-origins:fairy"
     ]
 }

@@ -1,0 +1,11 @@
+{
+    "powers":[
+        "theev-origins:fairy/flight",
+        "theev-origins:fairy/dainty",
+        "theev-origins:fairy/tiny"
+    ],
+    "icon": {
+        "item": "minecraft:glowstone_dust"
+    },
+    "impact": 1
+}

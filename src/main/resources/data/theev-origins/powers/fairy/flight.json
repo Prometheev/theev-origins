@@ -1,0 +1,15 @@
+{
+    "type": "origins:creative_flight",
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:living"
+            },
+            {
+                "type": "origins:power",
+                "power": "theev-origins:fairy/flight"
+            }
+        ]
+    }
+}
