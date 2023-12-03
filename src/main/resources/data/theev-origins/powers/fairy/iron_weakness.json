@@ -17,7 +17,7 @@
         "legs": {
             "type": "origins:ingredient",
             "ingredient": {
-                "item": "minecraft:iron_greaves"
+                "item": "minecraft:iron_leggings"
             }
         },
         "feet": {
