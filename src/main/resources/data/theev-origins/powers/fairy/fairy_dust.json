@@ -1,5 +1,6 @@
 {
     "type": "origins:fire_projectile",
     "entity_type": "theevorigins:fairy_dust",
-    "cooldown": 10
+    "cooldown": 10,
+    "speed": 0.4
 }
