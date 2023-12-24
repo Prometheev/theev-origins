@@ -45,6 +45,11 @@
                     ]
                 }
             }
+        },
+        "modifier": {
+            "name": "Weak to Iron Tools",
+            "operation": "addition",
+            "value": 1.5
         }
     }
 }
