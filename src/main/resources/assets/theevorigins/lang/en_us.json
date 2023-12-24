@@ -39,5 +39,22 @@
     "power.theev-origins.hatchling/young.name": "Young",
     "power.theev-origins.hatchling/young.description": "You are still small Thus you only have 5 hearts.",
     "power.theev-origins.hatchling/hatchling_wings.name": "Hatchling Wings",
-    "power.theev-origins.hatchling/hatchling_wings.description": "Your Wings prevent you from taking damage from falling or from fire"
+    "power.theev-origins.hatchling/hatchling_wings.description": "Your Wings prevent you from taking damage from falling or from fire",
+
+    "origin.theev-origins.fairy.name": "Fairy",
+    "origin.theev-origins.fairy.description": "You are small but powerful fairy from the Faewilds, with the ability to fly anywhere and throw fairy dust.",
+    "power.theev-origins.fairy/dainty.name": "Dainty",
+    "power.theev-origins.fairy/dainty.description": "You are small and fairies aren't much of fighters, you deal little damage with your fists and weapons.",
+    "power.theev-origins.fairy/delicate.name": "Delicate",
+    "power.theev-origins.fairy/delicate.description": "You are small and your consitution makes you delicate, only having 3 hearts.",
+    "power.theev-origins.fairy/flight.name": "Flight",
+    "power.theev-origins.fairy/flight.description": "You have powerful wings that can take you anywhere.",
+    "power.theev-origins.fairy/regenerating.name": "Fairy Regeneration",
+    "power.theev-origins.fairy/regenerating.description": "You quickly regenerate your health when damaged.",
+    "power.theev-origins.fairy/iron_weakness.name": "Iron Weakness",
+    "power.theev-origins.fairy/iron_weakness.description": "You cannot wear iron armor, and take additional damage from iron tools.",
+    "power.theev-origins.fairy/tiny.name": "Tiny",
+    "power.theev-origins.fairy/tiny.description": "You are small, only 1/2 a block tall.",
+    "power.theev-origins.fairy/fairy_dust.name": "Fairy Dust",
+    "power.theev-origins.fairy/fairy_dust.description": "You throw very dust from your wings, causing creatures hit by it to levitate."
 }
